@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <div style="font-family: 'Battambang', system-ui; width: 500px; text-align: center; margin: auto;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Spring_Framework_Logo_2018.svg/2560px-Spring_Framework_Logo_2018.svg.png" style="width: 200px; height: 50px;">
+        <h2 id="head">Expense Tracking Application</h2>
+        <p style="font-size: 14px;">Before you sign in, we need to verify your identity. Enter the following code on the sign-in page.</p>
+        <h2 id="num" style="margin: auto; background-color: antiquewhite; padding: 10px; text-align: center;"th:text="${optscode}"></h2>
+        <p>Welcome to the Expense Tracking Application. Here, you can monitor your expenses and manage your budget effectively.</p>
+    </div>
+</body>
+</html>
